@@ -1,0 +1,89 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="1024dp"
+    android:height="1024dp"
+    android:viewportWidth="1024"
+    android:viewportHeight="1024">
+
+    <!-- Background rounded square with soft pink -->
+    <path
+        android:fillColor="#FFF1F3"
+        android:pathData="M160,0 L864,0 C952,0 1024,72 1024,160 L1024,864 C1024,952 952,1024 864,1024 L160,1024 C72,1024 0,952 0,864 L0,160 C0,72 72,0 160,0 Z" />
+
+    <!-- Arched path decoration with icons -->
+    <path
+        android:strokeColor="#F48FB1"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:pathData="M240,480 A272,272 0 1,1 784,480" />
+
+    <!-- Arrow at the end of the arc -->
+    <path
+        android:fillColor="#F48FB1"
+        android:pathData="M784,480 L804,450 L824,485 Z" />
+
+    <!-- Growth chart lines on right -->
+    <path android:strokeColor="#F06292" android:strokeWidth="6" android:pathData="M840,300 L880,300 M840,350 L870,350 M840,400 L880,400 M840,450 L870,450 M840,500 L880,500 M840,550 L870,550" />
+
+    <!-- Pink Cradle/Bowl -->
+    <path
+        android:fillColor="#FF80AB"
+        android:pathData="M312,560 C312,780 712,780 712,560 L312,560 Z" />
+
+    <!-- Hands forming heart icon on Bowl -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M512,650 Q495,635 470,650 Q455,665 512,710 Q569,665 554,650 Q529,635 512,650 Z" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M480,680 Q460,710 500,730 M544,680 Q564,710 524,730" />
+
+    <!-- Baby Character -->
+    <!-- Head -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M512,540 m-160,0 a160,160 0,1,1 320,0 a160,160 0,1,1 -320,0" />
+
+    <!-- Hair Curl -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M512,380 Q540,330 512,310 Q485,330 512,380" />
+
+    <!-- Eyes -->
+    <path android:fillColor="#333333" android:pathData="M440,520 a16,16 0 1,1 32,0 a16,16 0 1,1 -32,0" />
+    <path android:fillColor="#333333" android:pathData="M552,520 a16,16 0 1,1 32,0 a16,16 0 1,1 -32,0" />
+
+    <!-- Cheeks (Blush) -->
+    <path android:fillColor="#33FF80AB" android:pathData="M400,560 a20,15 0 1,1 40,0 a20,15 0 1,1 -40,0" />
+    <path android:fillColor="#33FF80AB" android:pathData="M584,560 a20,15 0 1,1 40,0 a20,15 0 1,1 -40,0" />
+
+    <!-- Happy Smile -->
+    <path android:fillColor="#FF5252" android:pathData="M485,600 Q512,630 539,600 L485,600 Z" />
+
+    <!-- Little Hands -->
+    <path android:fillColor="#FFE0B2" android:pathData="M380,650 a15,15 0 1,1 30,0 a15,15 0 1,1 -30,0" />
+    <path android:fillColor="#FFE0B2" android:pathData="M614,650 a15,15 0 1,1 30,0 a15,15 0 1,1 -30,0" />
+
+    <!-- Icons on the Arc -->
+    <!-- Purple Star -->
+    <path android:fillColor="#9575CD" android:pathData="M650,260 l8,16 l16,3 l-12,12 l3,16 l-15,-10 l-15,10 l3,-16 l-12,-12 l16,-3 z" />
+    <!-- Pink Heart Icon -->
+    <path android:fillColor="#F06292" android:pathData="M330,280 Q325,275 315,280 Q310,285 330,300 Q350,285 345,280 Q335,275 330,280 Z" />
+    <!-- Yellow Footprint Icon -->
+    <path android:fillColor="#FFF176" android:pathData="M260,400 a10,14 0 1,1 20,0 a10,14 0 1,1 -20,0" />
+
+    <!-- Clouds at bottom -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,880 Q120,780 280,780 Q360,680 600,740 Q760,680 920,780 Q1000,780 1000,880 L120,880 Z" />
+
+    <!-- Text "Shishu Sneh" stylization -->
+    <!-- S -->
+    <path android:fillColor="#FF5252" android:pathData="M230,820 c-10,0 -15,5 -15,10 s5,10 15,10 s15,5 15,10 s-5,10 -15,10" />
+    <!-- S -->
+    <path android:fillColor="#7E57C2" android:pathData="M550,820 c-10,0 -15,5 -15,10 s5,10 15,10 s15,5 15,10 s-5,10 -15,10" />
+    <!-- Small decoration heart between words -->
+    <path android:fillColor="#FF80AB" android:pathData="M512,830 Q510,825 500,830 Q495,835 512,850 Q529,835 524,830 Q514,825 512,830 Z" />
+</vector>

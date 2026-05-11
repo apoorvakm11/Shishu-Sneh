@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ruralhealth.shishusneh.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+        
+    <fragment
+        android:id="@+id/growthFragment"
+        android:name="com.ruralhealth.shishusneh.ui.GrowthFragment"
+        android:label="Growth Tracker"
+        tools:layout="@layout/fragment_growth" />
+
+    <fragment
+        android:id="@+id/vaccineFragment"
+        android:name="com.ruralhealth.shishusneh.ui.VaccineFragment"
+        android:label="Vaccinations"
+        tools:layout="@layout/fragment_vaccine" />
+
+    <fragment
+        android:id="@+id/feedingFragment"
+        android:name="com.ruralhealth.shishusneh.ui.FeedingFragment"
+        android:label="Feeding Guide"
+        tools:layout="@layout/fragment_feeding" />
+
+    <fragment
+        android:id="@+id/milestoneFragment"
+        android:name="com.ruralhealth.shishusneh.ui.MilestoneFragment"
+        android:label="Milestones"
+        tools:layout="@layout/fragment_milestone" />
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.ruralhealth.shishusneh.ui.ChatFragment"
+        android:label="Ask AI Assistant"
+        tools:layout="@layout/fragment_chat" />
+
+</navigation>

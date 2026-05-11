@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Home" />
+    <item
+        android:id="@+id/growthFragment"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Growth" />
+    <item
+        android:id="@+id/vaccineFragment"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Vaccine" />
+    <item
+        android:id="@+id/feedingFragment"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Feeding" />
+    <item
+        android:id="@+id/milestoneFragment"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="Milestone" />
+</menu>

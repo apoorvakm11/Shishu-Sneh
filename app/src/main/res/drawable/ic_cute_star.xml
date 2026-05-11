@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Star Body -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M50,5L61.8,34.2L93.1,36.5L69.3,56.6L76.8,87.1L50,70.5L23.2,87.1L30.7,56.6L6.9,36.5L38.2,34.2Z" />
+    <!-- Left Eye -->
+    <group android:translateX="38" android:translateY="45">
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0,-2 a 2,2 0 1,1 0,4 a 2,2 0 1,1 0,-4" />
+    </group>
+    <!-- Right Eye -->
+    <group android:translateX="62" android:translateY="45">
+        <path
+            android:fillColor="#000000"
+            android:pathData="M 0,-2 a 2,2 0 1,1 0,4 a 2,2 0 1,1 0,-4" />
+    </group>
+    <!-- Cute Smile -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M40,58 Q50,68 60,58" />
+</vector>

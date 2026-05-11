@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Teddy Bear Head -->
+    <path
+        android:fillColor="#A1887F"
+        android:pathData="M50,30 A25,25 0 1,0 50,80 A25,25 0 1,0 50,30" />
+    <!-- Ears -->
+    <path
+        android:fillColor="#A1887F"
+        android:pathData="M30,35 A10,10 0 1,0 25,25 M70,35 A10,10 0 1,1 75,25" />
+    <!-- Muzzle -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M42,60 A8,6 0 1,0 58,60 A8,6 0 1,0 42,60" />
+    <!-- Eyes -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M40,50 A2,2 0 1,0 40.1,50 M60,50 A2,2 0 1,0 60.1,50" />
+    <!-- Nose -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M48,58 L52,58 L50,61 Z" />
+</vector>

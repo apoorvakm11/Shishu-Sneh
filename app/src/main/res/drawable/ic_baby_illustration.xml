@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="250dp"
+    android:height="250dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Cloud -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M25,60 Q25,45 40,45 Q45,30 65,35 Q85,35 85,55 Q85,75 65,75 L35,75 Q25,75 25,60 Z" />
+    <!-- Moon -->
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M70,20 A25,25 0 1,1 55,65 A30,30 0 0,0 70,20" />
+    <!-- Happy Face on Cloud -->
+    <path
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:pathData="M45,55 A1,1 0 1,1 45.1,55 M65,55 A1,1 0 1,1 65.1,55" />
+    <path
+        android:strokeColor="#BDBDBD"
+        android:strokeWidth="1"
+        android:strokeLineCap="round"
+        android:pathData="M50,62 Q55,67 60,62" />
+</vector>

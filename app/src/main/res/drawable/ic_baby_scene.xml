@@ -1,0 +1,49 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="250dp"
+    android:height="250dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Soft Glow -->
+    <path
+        android:pathData="M50,50m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="50"
+                android:centerY="50"
+                android:gradientRadius="40"
+                android:type="radial">
+                <item android:color="#33FFB6C1" android:offset="0" />
+                <item android:color="#00FFFFFF" android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Moon -->
+    <path
+        android:fillColor="#FFF9C4"
+        android:pathData="M75,30 A25,25 0 1,1 55,75 A32,32 0 0,0 75,30" />
+    <!-- Teddy Bear Head -->
+    <path
+        android:fillColor="#A1887F"
+        android:pathData="M40,55 A12,12 0 1,0 64,55 A12,12 0 1,0 40,55" />
+    <!-- Ears -->
+    <path
+        android:fillColor="#A1887F"
+        android:pathData="M40,48 A4,4 0 1,0 36,44 M64,48 A4,4 0 1,1 68,44" />
+    <!-- Muzzle -->
+    <path
+        android:fillColor="#D7CCC8"
+        android:pathData="M48,58 A4,3 0 1,0 56,58 A4,3 0 1,0 48,58" />
+    <!-- Eyes -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M46,53 A1,1 0 1,0 46.1,53 M58,53 A1,1 0 1,0 58.1,53" />
+    <!-- Nose -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M51,57 L53,57 L52,59 Z" />
+    <!-- Cloud -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,75 Q20,65 30,65 Q35,55 50,60 Q65,55 70,65 Q80,65 80,75 Q80,85 70,85 L30,85 Q20,85 20,75 Z" />
+</vector>

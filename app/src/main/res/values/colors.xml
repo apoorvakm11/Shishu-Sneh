@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink_pastel">#FFD1DC</color>
+    <color name="pink_light">#FFF0F5</color>
+    <color name="pink_dark">#FFB6C1</color>
+    <color name="peach_pastel">#FFDAB9</color>
+    <color name="lavender_soft">#E6E6FA</color>
+    <color name="purple_soft">#D8BFD8</color>
+
+    <color name="grad_start">#FFF0F5</color>
+    <color name="grad_end">#E6E6FA</color>
+
+    <color name="green_badge_bg">#E8F5E9</color>
+    <color name="green_badge_text">#2E7D32</color>
+    <color name="orange_badge_bg">#FFF3E0</color>
+    <color name="orange_badge_text">#E65100</color>
+
+    <color name="black">#212121</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#2D2D2D</color>
+    <color name="text_secondary">#616161</color>
+    <color name="background_soft">#FAFAFA</color>
+
+    <color name="chart_line">#FFB6C1</color>
+    <color name="chart_fill">#33FFB6C1</color>
+</resources>

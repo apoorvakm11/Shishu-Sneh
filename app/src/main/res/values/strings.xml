@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shishu-Sneh</string>
+    <string name="welcome_message">Welcome to Baby\'s First Year Guide</string>
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_growth">Growth Tracker</string>
+    <string name="nav_vaccine">Vaccinations</string>
+    <string name="nav_feeding">Feeding Guide</string>
+    <string name="nav_milestone">Milestones</string>
+    <!-- Titles -->
+    <string name="title_growth_chart">Growth Tracker</string>
+    <string name="title_vaccination">Vaccination Schedule</string>
+</resources>
