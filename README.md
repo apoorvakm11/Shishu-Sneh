@@ -95,10 +95,6 @@ Uses Generative AI to provide:
 ## Steps to Run
 
 # Clone the repository
-git clone https://github.com/your-username/shishu-sneh.git
-
 # Open in Android Studio
-
 # Sync Gradle Files
-
 # Run the Application
